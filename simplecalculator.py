@@ -14,7 +14,10 @@ elif(c=="3"):
   mul=a*b
   print("Multiplication=",mul)
 elif(c=="4"):
-  div=a/b
-  print("Division=",div)
+  if(b==0):
+    print("Division by Zero not possible")
+  else:
+    div=a/b
+    print("Division=",div)
 else:
   print("INVALID")
